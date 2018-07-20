@@ -1,0 +1,36 @@
+@import '_common';
+
+
+$space: 10px;
+
+.wrap{
+  width: 600px; 
+  margin: 30px auto;
+}
+
+.item{  
+  // width: 200px;
+  // height: 150px;  
+
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 150px;
+  border: 1px solid red;
+  background: #fff;
+  color: rgb(52, 116, 165);
+  text-align: center;
+}
+
+.slick-slide {  
+  background: red;
+}
+
+/* the slides */
+.slick-slide {
+  margin: 0 $space;
+}
+/* the parent */
+.slick-list {
+  // margin: 0 $space*-1px;
+}
